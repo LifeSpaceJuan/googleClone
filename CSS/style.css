@@ -8,7 +8,7 @@ html {
 }
 
 body {
-    font-size: 1.6rem;
+    font-size: 1.4rem;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -42,6 +42,10 @@ nav .nav-right-section a {
     color: #000000;
 }
 
+nav .nav-right-section a:hover {
+    text-decoration: underline;
+}
+
 nav .nav-right-section .menu-icon {
     background-image: url(https://bn1301files.storage.live.com/y4p-scbF89W0fXQMfLK1ELNpO8nFVlNndFjAIrCnRd3yKAxhEwSgp6YuuPveUIc8lRI1sm5Ryzibwq1SNifIyPhX1uq29YIbynHaOlTdZUEIh3jkLw98b2MXLqZRKWy-7aMltKGST-fz7wPaUI0_kNa7MVwRjE9YpYcKGvvKsPl5YZKeTZdoPCfPSQhqp_a7VDXGQcjyovzKomae1Zo2AWNAa2IK5myD-vukdGI54-_MI0/apps_black.png?psid=1&width=48&height=48&cropMode=center);
     background-repeat: no-repeat;
@@ -49,6 +53,7 @@ nav .nav-right-section .menu-icon {
     background-size: contain;
     width: 25px;
     height: 25px;
+    cursor: pointer;
 }
 
 nav .nav-right-section .menu-account {
@@ -58,17 +63,18 @@ nav .nav-right-section .menu-account {
     background-size: contain;
     width: 32px;
     height: 32px;
+    cursor: pointer;
 }
 
 main {
-    margin-top: 150px;
+    margin-top: 100px;
     text-align: center;
 }
 
 main .main-logo {
     width: 530px;
     margin: 0 auto;
-    margin-bottom: 35px;
+    margin-bottom: 28px;
 }
 
 main .main-logo img {
@@ -96,4 +102,67 @@ main .main-input input {
     height: 40px;
     border: none;
     outline: none;
+}
+
+main .main-input-container:hover {
+    box-shadow: 0 1px 6px 0 #20212447;
+    border-color: #dfe1e500;
+}
+
+main .main-input .search-icon {
+    background-image: url('https://bn1301files.storage.live.com/y4pR4SVOT6u8TNb68lTZFKBPOQpwep_9LN80Tz4_W_Ht6an1qCPf1L9HYUe4UyHm-5G14Hj_F0HG9copC5nJwXjfzkWEPEX1mecmyBNxSOxDepr6Lqr3dEWJVuG3D6UcVuzWvNJOz9QkdwpD-dy7qkJQ5CHw4_X91Ubur72rfDGF5yL_44nRbNJZsvVBnT_YfzLiPn5pdiGn8XdEQoEKZhRrh9DPJM1WzTG9aEDjhnR3AA/search_black.png?psid=1&width=48&height=48&cropMode=center');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 20px;
+    height: 20px;
+}
+
+main .main-input .micro-icon {
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Google_mic.svg/1200px-Google_mic.svg.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 21px;
+    height: 21px;
+    cursor: pointer;
+}
+
+main .main-buttons {
+    width: 530px;
+    margin: 0 auto;
+}
+
+main .main-buttons div {
+    display: inline-block;
+}
+
+main .main-buttons button {
+    height: 36px;
+    background-color: #f8f9fa;
+    border: 0;
+    font-size: 1.4rem;
+    color: #3c4043;
+    border-radius: 5px;
+    padding: 0 15px;
+    margin-right: 15px;
+}
+
+main .main-buttons button:hover {
+    border: 1px solid #dadce0;
+    box-shadow: 0 1px 1px #808080;
+}
+
+main .main-div {
+    margin-top: 30px;
+    font-size: 1.3rem;
+    color: #3c4043;
+}
+
+main .main-div a {
+    color: #1a0dab;
+}
+
+main .main-div a:hover {
+    text-decoration: underline;
 }
