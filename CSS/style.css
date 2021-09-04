@@ -25,6 +25,7 @@ header {
 header nav {
     display: flex;
     justify-content: flex-end;
+    margin-top: 1.3rem;
 }
 
 header nav .nav-right-section {
@@ -39,4 +40,22 @@ header nav .nav-right-section {
 nav .nav-right-section a {
     margin-right: 10px;
     color: #000000;
+}
+
+nav .nav-right-section .menu-icon {
+    background-image: url(https://bn1301files.storage.live.com/y4p-scbF89W0fXQMfLK1ELNpO8nFVlNndFjAIrCnRd3yKAxhEwSgp6YuuPveUIc8lRI1sm5Ryzibwq1SNifIyPhX1uq29YIbynHaOlTdZUEIh3jkLw98b2MXLqZRKWy-7aMltKGST-fz7wPaUI0_kNa7MVwRjE9YpYcKGvvKsPl5YZKeTZdoPCfPSQhqp_a7VDXGQcjyovzKomae1Zo2AWNAa2IK5myD-vukdGI54-_MI0/apps_black.png?psid=1&width=48&height=48&cropMode=center);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 25px;
+    height: 25px;
+}
+
+nav .nav-right-section .menu-account {
+    background-image: url(https://bn1301files.storage.live.com/y4prlrN74631FvbARUWldw0cEuDS2bqPaus0DkalMO6e8TWqFVN0fG9EyDuse8ETgSh8TzqcKyqO2g5DobtjByg-3JoSBNWCeWDREtigisuEM7hffnz_PoM-zZkklAD5r58i3DWccHwym0vi1x4nrTnAFMjy12T12NDXGvhL9ruRCTP5JKJhYBAubwM7LjgP4Xe-VmTngu8rmAhjFcRMQdta2RlMXi4CE9HCPZVF6TVIhI/account_circle_black.png?psid=1&width=48&height=48&cropMode=center);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 32px;
+    height: 32px;
 }
